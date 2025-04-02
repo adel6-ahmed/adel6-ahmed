@@ -97,10 +97,10 @@
 
 <!-- Contribution Snake -->
 <div>
-  <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/output/github-contribution-grid-snake.svg" 
+  <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake-dark.svg" 
        alt="Contribution Snake" 
        style="width: 100%; max-width: 800px;"
-       onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/output/github-contribution-grid-snake-dark.svg'">
+       onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg'">
 </div>
 
 </div>

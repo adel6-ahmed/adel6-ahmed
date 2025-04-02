@@ -8,28 +8,28 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout with full history
+      - name: Checkout with full permissions
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # للحصول على كامل تاريخ git
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          token: ${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Generate snake
+      - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: "adel6-ahmed"
           outputs: "output/github-contribution-grid-snake.svg"
 
-      - name: Configure Git
+      - name: Prepare Git environment
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
       - name: Force sync and push
         run: |
-          git fetch origin
+          git fetch origin master
           git reset --hard origin/master
-          git add .
+          git add -A
           git commit -m "Generated snake contribution graph" --allow-empty
-          git push origin master --force
+          git push origin HEAD:master --force

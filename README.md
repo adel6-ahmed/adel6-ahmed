@@ -13,7 +13,7 @@
 - 🔭 *Currently working on:* Next-gen AI applications & Cloud-native solutions
 - 🌱 *Deep diving into:* LLMs, MLOps, and Serverless Architectures
 - 💡 *Passionate about:* Open-source, Developer Experience (DX), and Clean Code
-- 💬 *Ask me about:* React ecosystems, Python backends, or AI deployment
+- 💬 *Ask me about:* Web development, Python backends, or AI deployment
 - ⚡ *Fun fact:* I automate everything I can (including my coffee routine!)
 - 🌐 *Portfolio:* [adelcv.herokuapp.com](https://adelcv-65e7de2c63d5.herokuapp.com/)
 
@@ -24,21 +24,26 @@
 <div align="center">
 
 #### *Frontend & Mobile*
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![AngularJS](https://img.shields.io/badge/AngularJS-E23237?style=for-the-badge&logo=angularjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 #### *Backend & Cloud*
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
-#### *Data & AI*
+#### *Mobile & AI*
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+
+#### *Programming Languages*
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 </div>
 
@@ -48,9 +53,9 @@
 
 | Project | Description | Tech Stack | Live Demo |
 |---------|-------------|------------|-----------|
-| [AI Companion](https://github.com/adel6-ahmed/ai-companion) | Context-aware AI assistant with RAG | Python, LangChain, Next.js | [Demo](#) |
-| [EcoTrack](https://github.com/adel6-ahmed/ecotrack) | Carbon footprint tracker | Flutter, Firebase, TensorFlow Lite | [App Store](#) |
-| [DevFlow](https://github.com/adel6-ahmed/devflow) | Developer productivity toolkit | React, Node.js, MongoDB | [Live](https://devflow.demo) |
+| [AI Companion](https://github.com/adel6-ahmed/ai-companion) | Context-aware AI assistant | Python, TensorFlow, AngularJS | [Demo](#) |
+| [EcoTrack](https://github.com/adel6-ahmed/ecotrack) | Carbon footprint tracker | Flutter, Firebase | [App Store](#) |
+| [DevFlow](https://github.com/adel6-ahmed/devflow) | Developer productivity toolkit | Tailwind CSS, MongoDB | [Live](https://devflow.demo) |
 
 ---
 
@@ -78,7 +83,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-20C997?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adelcv-65e7de2c63d5.herokuapp.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/yourprofile)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/yourprofile)
 
 </div>
 

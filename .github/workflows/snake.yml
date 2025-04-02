@@ -1,20 +1,24 @@
 name: Generate Snake
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # تشغيل يومي
   workflow_dispatch:
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate the snake animation
+        uses: Platane/snk/svg-only@v3
         with:
-          ref: master  # ← أهم تعديل هنا
-      - uses: Platane/snk@v3
+          github_user_name: "adel6-ahmed"
+          outputs: "output/github-contribution-grid-snake.svg"
+
+      - name: Push the changes
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          github_user_name: adel6-ahmed
-          svg_out_path: output/github-contribution-grid-snake.svg
-      - uses: EndBug/add-and-commit@v9
-        with:
-          branch: master  # ← تغيير هنا أيضاً
-          message: 'Update snake'
+          commit_message: "Generated snake contribution graph"
+          branch: master

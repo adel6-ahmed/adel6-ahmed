@@ -73,21 +73,23 @@
 
 
 <!-- Stats Overview -->
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 25px 0;">
-  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
-    <img src="https://github-readme-stats.vercel.app/api?username=adel6-ahmed&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&title_color=20c997&icon_color=20c997&text_color=ffffff" alt="GitHub Stats" style="width: 100%;">
+<div style="display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; margin: 20px 0;">
+  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 18px; border: 1px solid rgba(255,255,255,0.1);">
+    <img src="https://github-readme-stats.vercel.app/api?username=adel6-ahmed&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&title_color=20c997&icon_color=20c997&text_color=ffffff&hide_title=true" alt="GitHub Stats" style="width: 100%;">
   </div>
-  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adel6-ahmed&layout=compact&theme=github_dark&hide_border=true&title_color=20c997&text_color=ffffff" alt="Top Languages" style="width: 100%;">
+  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 18px; border: 1px solid rgba(255,255,255,0.1);">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adel6-ahmed&layout=compact&theme=github_dark&hide_border=true&title_color=20c997&text_color=ffffff&hide_title=true" alt="Top Languages" style="width: 100%;">
   </div>
 </div>
 
 <!-- Contribution Visualization -->
-<div style="background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; margin: 25px 0; border: 1px solid rgba(255,255,255,0.1); text-align: center;">
-  <img src="https://streak-stats.demolab.com?user=adel6-ahmed&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D111700&fire=20C997&sideNums=20C997&currStreakNum=20C997" alt="GitHub Streak" style="width: 100%; max-width: 800px; border-radius: 8px;">
-  <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg" alt="Contribution Snake" style="width: 100%; max-width: 800px; margin-top: 20px;">
-</div>
-
+<div style="background: rgba(16,20,24,0.6); border-radius: 14px; padding: 18px; margin: 20px 0; border: 1px solid rgba(255,255,255,0.1); text-align: center;">
+  <div style="margin-bottom: 16px;">
+    <img src="https://streak-stats.demolab.com?user=adel6-ahmed&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D111700&fire=20C997&sideNums=20C997&currStreakNum=20C997&font_size=14" alt="GitHub Streak" style="width: 100%; max-width: 800px; border-radius: 8px;">
+  </div>
+  <div>
+    <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg" alt="Contribution Snake" style="width: 100%; max-width: 800px;">
+  </div>
 </div>
 ---
 

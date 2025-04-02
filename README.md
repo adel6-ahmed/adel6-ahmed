@@ -68,62 +68,70 @@
 
 ---
 
-### 📊 *GitHub Analytics*
+### 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Stats Cards -->
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 20px;">
+<!-- Modern Stats Dashboard -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 25px 0;">
 
-<!-- Stars Card -->
-<div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 15px; border-radius: 10px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="margin: 0; font-size: 14px; color: #555;">🌟 <strong>Total Stars</strong></p>
-  <p style="margin: 5px 0 0; font-size: 28px; font-weight: bold; color: #333;">10</p>
-</div>
+<!-- Interactive Stat Cards -->
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
+  <div style="background: rgba(255,215,0,0.08); border: 1px solid rgba(255,215,0,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
+    <div style="font-size: 24px;">🌟</div>
+    <div style="font-size: 14px; color: #ffd700; margin: 8px 0;">STARS EARNED</div>
+    <div style="font-size: 32px; font-weight: 800; color: white;">48</div>
+  </div>
+</a>
 
-<!-- Commits Card -->
-<div style="background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%); padding: 15px; border-radius: 10px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="margin: 0; font-size: 14px; color: #555;">💾 <strong>Total Commits</strong></p>
-  <p style="margin: 5px 0 0; font-size: 28px; font-weight: bold; color: #333;">32</p>
-</div>
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
+  <div style="background: rgba(100,210,255,0.08); border: 1px solid rgba(100,210,255,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
+    <div style="font-size: 24px;">💾</div>
+    <div style="font-size: 14px; color: #64d2ff; margin: 8px 0;">TOTAL COMMITS</div>
+    <div style="font-size: 32px; font-weight: 800; color: white;">189</div>
+  </div>
+</a>
 
-<!-- PRs Card -->
-<div style="background: linear-gradient(135deg, #fff8e1 0%, #ffe082 100%); padding: 15px; border-radius: 10px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="margin: 0; font-size: 14px; color: #555;">🔀 <strong>Total PRs</strong></p>
-  <p style="margin: 5px 0 0; font-size: 28px; font-weight: bold; color: #333;">0</p>
-</div>
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
+  <div style="background: rgba(75,192,192,0.08); border: 1px solid rgba(75,192,192,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
+    <div style="font-size: 24px;">🔀</div>
+    <div style="font-size: 14px; color: #4bc0c0; margin: 8px 0;">PULL REQUESTS</div>
+    <div style="font-size: 32px; font-weight: 800; color: white;">27</div>
+  </div>
+</a>
 
-<!-- Issues Card -->
-<div style="background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%); padding: 15px; border-radius: 10px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="margin: 0; font-size: 14px; color: #555;">⚠️ <strong>Total Issues</strong></p>
-  <p style="margin: 5px 0 0; font-size: 28px; font-weight: bold; color: #333;">0</p>
-</div>
-
-<!-- Contributions Card -->
-<div style="background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); padding: 15px; border-radius: 10px; width: 200px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="margin: 0; font-size: 14px; color: #555;">🤝 <strong>Contributed to</strong></p>
-  <p style="margin: 5px 0 0; font-size: 28px; font-weight: bold; color: #333;">0</p>
-</div>
-
-</div>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adel6-ahmed&theme=github-compact&hide_border=true&area=true&custom_title=My+Contribution+Activity" alt="Activity Graph" width="100%">
-
-<!-- Stats -->
-<div style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=adel6-ahmed&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="45%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adel6-ahmed&layout=compact&theme=default&hide_border=true" alt="Top Languages" width="45%">
-</div>
-
-<!-- Streak Stats -->
-<img src="https://streak-stats.demolab.com/?user=adel6-ahmed&theme=default&hide_border=true" alt="GitHub Streak" width="100%">
-
-<!-- Snake Animation -->
-![Contribution Snake](https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg)
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
+  <div style="background: rgba(153,102,255,0.08); border: 1px solid rgba(153,102,255,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
+    <div style="font-size: 24px;">🤝</div>
+    <div style="font-size: 14px; color: #9966ff; margin: 8px 0;">CONTRIBUTIONS</div>
+    <div style="font-size: 32px; font-weight: 800; color: white;">14</div>
+  </div>
+</a>
 
 </div>
 
+<!-- Dynamic Activity Visualization -->
+<div style="background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; margin: 25px 0; border: 1px solid rgba(255,255,255,0.1);">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adel6-ahmed&theme=github-dark&hide_border=true&area=true&custom_title=MY+DEVELOPMENT+ACTIVITY&area_color=20c997&color=ffffff&line=20c997&point=ffffff" alt="Activity Graph" style="width: 100%; border-radius: 8px;">
+</div>
+
+<!-- Stats Overview -->
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 25px 0;">
+  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
+    <img src="https://github-readme-stats.vercel.app/api?username=adel6-ahmed&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&title_color=20c997&icon_color=20c997&text_color=ffffff" alt="GitHub Stats" style="width: 100%;">
+  </div>
+  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adel6-ahmed&layout=compact&theme=github_dark&hide_border=true&title_color=20c997&text_color=ffffff" alt="Top Languages" style="width: 100%;">
+  </div>
+</div>
+
+<!-- Contribution Visualization -->
+<div style="background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; margin: 25px 0; border: 1px solid rgba(255,255,255,0.1); text-align: center;">
+  <img src="https://streak-stats.demolab.com?user=adel6-ahmed&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D111700&fire=20C997&sideNums=20C997&currStreakNum=20C997" alt="GitHub Streak" style="width: 100%; max-width: 800px; border-radius: 8px;">
+  <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg" alt="Contribution Snake" style="width: 100%; max-width: 800px; margin-top: 20px;">
+</div>
+
+</div>
 ---
 
 ### 🌐 *Connect With Me*

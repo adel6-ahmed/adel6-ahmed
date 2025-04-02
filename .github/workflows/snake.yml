@@ -8,11 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: master  # ← أهم تعديل هنا
       - uses: Platane/snk@v3
         with:
           github_user_name: adel6-ahmed
           svg_out_path: output/github-contribution-grid-snake.svg
       - uses: EndBug/add-and-commit@v9
         with:
-          branch: master
-          message: 'Update contribution snake'
+          branch: master  # ← تغيير هنا أيضاً
+          message: 'Update snake'

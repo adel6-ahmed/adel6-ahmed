@@ -88,7 +88,7 @@
     <img src="https://streak-stats.demolab.com/?user=adel6-ahmed&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&fire=20C997&sideNums=20C997&currStreakNum=20C997&font=Source%20Code%20Pro&font_size=14" alt="GitHub Streak" style="width: 100%; max-width: 800px; border-radius: 8px;">
   </div>
   <div>
-    ![Contribution Snake](https://github.com/adel6-ahmed/adel6-ahmed/blob/output/github-contribution-grid-snake.svg)
+    <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg" alt="Contribution Snake" style="width: 100%; max-width: 800px;">
   </div>
 </div>
 

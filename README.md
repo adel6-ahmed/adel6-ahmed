@@ -73,36 +73,7 @@
 <div align="center">
 
 <!-- Modern Stats Dashboard -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 25px 0;">
 
-<!-- Interactive Stat Cards -->
-
-
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: rgba(100,210,255,0.08); border: 1px solid rgba(100,210,255,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
-    <div style="font-size: 24px;">💾</div>
-    <div style="font-size: 14px; color: #64d2ff; margin: 8px 0;">TOTAL COMMITS</div>
-    <div style="font-size: 32px; font-weight: 800; color: white;">189</div>
-  </div>
-</a>
-
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: rgba(75,192,192,0.08); border: 1px solid rgba(75,192,192,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
-    <div style="font-size: 24px;">🔀</div>
-    <div style="font-size: 14px; color: #4bc0c0; margin: 8px 0;">PULL REQUESTS</div>
-    <div style="font-size: 32px; font-weight: 800; color: white;">27</div>
-  </div>
-</a>
-
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: rgba(153,102,255,0.08); border: 1px solid rgba(153,102,255,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
-    <div style="font-size: 24px;">🤝</div>
-    <div style="font-size: 14px; color: #9966ff; margin: 8px 0;">CONTRIBUTIONS</div>
-    <div style="font-size: 32px; font-weight: 800; color: white;">14</div>
-  </div>
-</a>
-
-</div>
 
 <!-- Dynamic Activity Visualization -->
 <div style="background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; margin: 25px 0; border: 1px solid rgba(255,255,255,0.1);">

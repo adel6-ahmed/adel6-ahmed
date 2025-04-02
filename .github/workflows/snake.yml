@@ -4,32 +4,31 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write  # هذا السطر ضروري لمنح صلاحيات الكتابة
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout with full permissions
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}
 
-      - name: Generate snake animation
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: "adel6-ahmed"
           outputs: "output/github-contribution-grid-snake.svg"
 
-      - name: Prepare Git environment
+      - name: Force push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-
-      - name: Force sync and push
-        run: |
-          git fetch origin master
-          git reset --hard origin/master
-          git add -A
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN || secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git add .
           git commit -m "Generated snake contribution graph" --allow-empty
+          git pull --rebase origin master  # حل مشكلة الـ non-fast-forward
           git push origin HEAD:master --force

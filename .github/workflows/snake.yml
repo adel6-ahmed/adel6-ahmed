@@ -22,3 +22,5 @@ jobs:
         with:
           commit_message: "Generated snake contribution graph"
           branch: master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ هذا يحل المشكلة

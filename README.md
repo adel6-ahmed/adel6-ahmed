@@ -76,13 +76,7 @@
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 25px 0;">
 
 <!-- Interactive Stat Cards -->
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: rgba(255,215,0,0.08); border: 1px solid rgba(255,215,0,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
-    <div style="font-size: 24px;">🌟</div>
-    <div style="font-size: 14px; color: #ffd700; margin: 8px 0;">STARS EARNED</div>
-    <div style="font-size: 32px; font-weight: 800; color: white;">48</div>
-  </div>
-</a>
+
 
 <a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
   <div style="background: rgba(100,210,255,0.08); border: 1px solid rgba(100,210,255,0.3); border-radius: 12px; padding: 20px; text-align: center; transition: all 0.3s ease;">
@@ -152,5 +146,5 @@
 </p>
 
 <p align="center">
-  <i>"First, solve the problem. Then, write the code." - John Johnson</i>
+  <i>"First, solve the problem. Then, write the code." - adel ahmed</i>
 </p>

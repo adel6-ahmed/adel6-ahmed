@@ -1,7 +1,7 @@
 name: Generate Snake
 on:
   schedule:
-    - cron: "0 0 * * *"  # تشغيل يومي
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,17 +10,21 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
-      - name: Generate the snake animation
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: "adel6-ahmed"
           outputs: "output/github-contribution-grid-snake.svg"
 
-      - name: Push the changes
+      - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Generated snake contribution graph"
           branch: master
+          force: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # ✅ هذا يحل المشكلة
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

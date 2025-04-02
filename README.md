@@ -37,13 +37,16 @@
 
 #### *Mobile & AI*
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 
 #### *Programming Languages*
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 
 </div>
 
@@ -55,7 +58,7 @@
 |---------|-------------|------------|-----------|
 | [AI Companion](https://github.com/adel6-ahmed/ai-companion) | Context-aware AI assistant | Python, TensorFlow, AngularJS | [Demo](#) |
 | [EcoTrack](https://github.com/adel6-ahmed/ecotrack) | Carbon footprint tracker | Flutter, Firebase | [App Store](#) |
-| [DevFlow](https://github.com/adel6-ahmed/devflow) | Developer productivity toolkit | Tailwind CSS, MongoDB | [Live](https://devflow.demo) |
+| [DevFlow](https://github.com/adel6-ahmed/devflow) | Developer productivity toolkit | C#, JavaScript, MongoDB | [Live](https://devflow.demo) |
 
 ---
 

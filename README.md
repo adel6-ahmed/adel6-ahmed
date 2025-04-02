@@ -68,28 +68,41 @@
 
 ---
 
-### 📊 *GitHub Analytics*
+### 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Stats Overview -->
-<div style="display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; margin: 20px 0;">
-  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 18px; border: 1px solid rgba(255,255,255,0.1);">
-    <img src="https://github-readme-stats.vercel.app/api?username=adel6-ahmed&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&title_color=20c997&icon_color=20c997&text_color=ffffff&hide_title=true" alt="GitHub Stats" style="width: 100%;">
-  </div>
-  <div style="flex: 1; min-width: 300px; background: rgba(16,20,24,0.6); border-radius: 14px; padding: 18px; border: 1px solid rgba(255,255,255,0.1);">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adel6-ahmed&layout=compact&theme=github_dark&hide_border=true&title_color=20c997&text_color=ffffff&hide_title=true" alt="Top Languages" style="width: 100%;">
-  </div>
+<!-- Stats Cards Container -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 25px 0;">
+
+<!-- GitHub Stats Card -->
+<div style="background: rgba(16,20,24,0.7); border-radius: 16px; padding: 20px; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <img src="https://github-readme-stats.vercel.app/api?username=adel6-ahmed&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&title_color=20c997&icon_color=20c997&text_color=ffffff&hide_title=true" alt="GitHub Stats" style="width: 100%;">
+</div>
+
+<!-- Top Languages Card -->
+<div style="background: rgba(16,20,24,0.7); border-radius: 16px; padding: 20px; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adel6-ahmed&layout=compact&theme=github_dark&hide_border=true&title_color=20c997&text_color=ffffff&hide_title=true" alt="Top Languages" style="width: 100%;">
+</div>
+
 </div>
 
 <!-- Contribution Visualization -->
-<div style="background: rgba(16,20,24,0.6); border-radius: 14px; padding: 18px; margin: 20px 0; border: 1px solid rgba(255,255,255,0.1); text-align: center;">
-  <div style="margin-bottom: 16px;">
-    <img src="https://streak-stats.demolab.com/?user=adel6-ahmed&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&fire=20C997&sideNums=20C997&currStreakNum=20C997&font=Source%20Code%20Pro&font_size=14" alt="GitHub Streak" style="width: 100%; max-width: 800px; border-radius: 8px;">
-  </div>
-  <div>
-    <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg" alt="Contribution Snake" style="width: 100%; max-width: 800px;">
-  </div>
+<div style="background: rgba(16,20,24,0.7); border-radius: 16px; padding: 20px; margin: 25px 0; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 4px 12px rgba(0,0,0,0.2); text-align: center;">
+
+<!-- Streak Stats -->
+<div style="margin-bottom: 20px;">
+  <img src="https://streak-stats.demolab.com/?user=adel6-ahmed&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&fire=20C997&sideNums=20C997&currStreakNum=20C997&font=Source%20Code%20Pro&font_size=15" alt="GitHub Streak" style="width: 100%; max-width: 800px; border-radius: 10px;">
+</div>
+
+<!-- Contribution Snake -->
+<div>
+  <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/output/github-contribution-grid-snake.svg" 
+       alt="Contribution Snake" 
+       style="width: 100%; max-width: 800px;"
+       onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/output/github-contribution-grid-snake-dark.svg'">
+</div>
+
 </div>
 
 </div>

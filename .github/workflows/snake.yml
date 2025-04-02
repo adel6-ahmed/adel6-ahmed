@@ -9,10 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
+          ref: master
 
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
@@ -26,5 +27,4 @@ jobs:
           commit_message: "Generated snake contribution graph"
           branch: master
           force: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}

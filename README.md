@@ -70,49 +70,41 @@
 
 ### 📊 GitHub Analytics
 
-<div align="center">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; margin: 40px 0;">
 
-<!-- Modern Stats Dashboard -->
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 30px 0;">
-
-<!-- Modern GitHub Stats Cards -->
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: linear-gradient(145deg, rgba(255,215,0,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(8px); border-radius: 16px; padding: 25px; border: 1px solid rgba(255,215,0,0.2); box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: all 0.3s ease; transform-style: preserve-3d;">
-    <div style="font-size: 28px; text-align: center; margin-bottom: 10px;">🌟</div>
-    <div style="font-size: 15px; text-align: center; color: #ffd700; margin-bottom: 8px; letter-spacing: 1px;">STARS EARNED</div>
-    <div style="font-size: 36px; font-weight: 800; text-align: center; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">48</div>
+<!-- Premium GitHub Stats Cards -->
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none; perspective: 1000px;">
+  <div style="background: linear-gradient(145deg, rgba(255,215,0,0.12), rgba(255,255,255,0.08)); backdrop-filter: blur(12px); border-radius: 20px; padding: 30px; border: 1px solid rgba(255,215,0,0.25); box-shadow: 0 8px 32px rgba(255,215,0,0.15); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1); transform-style: preserve-3d; will-change: transform;">
+    <div style="font-size: 32px; text-align: center; margin-bottom: 12px; filter: drop-shadow(0 4px 8px rgba(255,215,0,0.3));">🌟</div>
+    <div style="font-size: 16px; text-align: center; color: #ffd700; margin-bottom: 10px; letter-spacing: 1.5px; font-weight: 600; text-transform: uppercase;">Stars Earned</div>
+    <div style="font-size: 42px; font-weight: 900; text-align: center; background: linear-gradient(135deg, #ffd700, #ffcc00); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 2px 10px rgba(255,215,0,0.3));">48</div>
   </div>
 </a>
 
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: linear-gradient(145deg, rgba(100,210,255,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(8px); border-radius: 16px; padding: 25px; border: 1px solid rgba(100,210,255,0.2); box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: all 0.3s ease; transform-style: preserve-3d;">
-    <div style="font-size: 28px; text-align: center; margin-bottom: 10px;">💾</div>
-    <div style="font-size: 15px; text-align: center; color: #64d2ff; margin-bottom: 8px; letter-spacing: 1px;">TOTAL COMMITS</div>
-    <div style="font-size: 36px; font-weight: 800; text-align: center; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">189</div>
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none; perspective: 1000px;">
+  <div style="background: linear-gradient(145deg, rgba(100,210,255,0.12), rgba(255,255,255,0.08)); backdrop-filter: blur(12px); border-radius: 20px; padding: 30px; border: 1px solid rgba(100,210,255,0.25); box-shadow: 0 8px 32px rgba(100,210,255,0.15); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1); transform-style: preserve-3d; will-change: transform;">
+    <div style="font-size: 32px; text-align: center; margin-bottom: 12px; filter: drop-shadow(0 4px 8px rgba(100,210,255,0.3));">💾</div>
+    <div style="font-size: 16px; text-align: center; color: #64d2ff; margin-bottom: 10px; letter-spacing: 1.5px; font-weight: 600; text-transform: uppercase;">Total Commits</div>
+    <div style="font-size: 42px; font-weight: 900; text-align: center; background: linear-gradient(135deg, #64d2ff, #00a8ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 2px 10px rgba(100,210,255,0.3));">189</div>
   </div>
 </a>
 
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: linear-gradient(145deg, rgba(75,192,192,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(8px); border-radius: 16px; padding: 25px; border: 1px solid rgba(75,192,192,0.2); box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: all 0.3s ease; transform-style: preserve-3d;">
-    <div style="font-size: 28px; text-align: center; margin-bottom: 10px;">🔀</div>
-    <div style="font-size: 15px; text-align: center; color: #4bc0c0; margin-bottom: 8px; letter-spacing: 1px;">PULL REQUESTS</div>
-    <div style="font-size: 36px; font-weight: 800; text-align: center; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">27</div>
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none; perspective: 1000px;">
+  <div style="background: linear-gradient(145deg, rgba(75,192,192,0.12), rgba(255,255,255,0.08)); backdrop-filter: blur(12px); border-radius: 20px; padding: 30px; border: 1px solid rgba(75,192,192,0.25); box-shadow: 0 8px 32px rgba(75,192,192,0.15); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1); transform-style: preserve-3d; will-change: transform;">
+    <div style="font-size: 32px; text-align: center; margin-bottom: 12px; filter: drop-shadow(0 4px 8px rgba(75,192,192,0.3));">🔀</div>
+    <div style="font-size: 16px; text-align: center; color: #4bc0c0; margin-bottom: 10px; letter-spacing: 1.5px; font-weight: 600; text-transform: uppercase;">Pull Requests</div>
+    <div style="font-size: 42px; font-weight: 900; text-align: center; background: linear-gradient(135deg, #4bc0c0, #00b4b4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 2px 10px rgba(75,192,192,0.3));">27</div>
   </div>
 </a>
 
-<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none;">
-  <div style="background: linear-gradient(145deg, rgba(153,102,255,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(8px); border-radius: 16px; padding: 25px; border: 1px solid rgba(153,102,255,0.2); box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: all 0.3s ease; transform-style: preserve-3d;">
-    <div style="font-size: 28px; text-align: center; margin-bottom: 10px;">🤝</div>
-    <div style="font-size: 15px; text-align: center; color: #9966ff; margin-bottom: 8px; letter-spacing: 1px;">CONTRIBUTIONS</div>
-    <div style="font-size: 36px; font-weight: 800; text-align: center; color: white; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">14</div>
+<a href="https://github.com/adel6-ahmed?tab=repositories" style="text-decoration: none; perspective: 1000px;">
+  <div style="background: linear-gradient(145deg, rgba(153,102,255,0.12), rgba(255,255,255,0.08)); backdrop-filter: blur(12px); border-radius: 20px; padding: 30px; border: 1px solid rgba(153,102,255,0.25); box-shadow: 0 8px 32px rgba(153,102,255,0.15); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1); transform-style: preserve-3d; will-change: transform;">
+    <div style="font-size: 32px; text-align: center; margin-bottom: 12px; filter: drop-shadow(0 4px 8px rgba(153,102,255,0.3));">🤝</div>
+    <div style="font-size: 16px; text-align: center; color: #9966ff; margin-bottom: 10px; letter-spacing: 1.5px; font-weight: 600; text-transform: uppercase;">Contributions</div>
+    <div style="font-size: 42px; font-weight: 900; text-align: center; background: linear-gradient(135deg, #9966ff, #7b4cff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 0 2px 10px rgba(153,102,255,0.3));">14</div>
   </div>
 </a>
 
-</div>
-<!-- Dynamic Activity Visualization -->
-<div style="background: rgba(16,20,24,0.6); border-radius: 14px; padding: 20px; margin: 25px 0; border: 1px solid rgba(255,255,255,0.1);">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adel6-ahmed&theme=github-dark&hide_border=true&area=true&custom_title=MY+DEVELOPMENT+ACTIVITY&area_color=20c997&color=ffffff&line=20c997&point=ffffff" alt="Activity Graph" style="width: 100%; border-radius: 8px;">
 </div>
 
 <!-- Stats Overview -->

@@ -8,11 +8,12 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: true
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
@@ -20,10 +21,14 @@ jobs:
           github_user_name: "adel6-ahmed"
           outputs: "output/github-contribution-grid-snake.svg"
 
-      - name: Pull latest changes
-        run: git pull origin master --rebase
+      - name: Reset and sync branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin
+          git reset --hard origin/master
 
-      - name: Push changes
+      - name: Force push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Generated snake contribution graph"

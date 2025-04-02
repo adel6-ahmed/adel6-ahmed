@@ -68,9 +68,9 @@
 
 ---
 
-### 📊 GitHub Analytics
+### 📊 *GitHub Analytics*
 
-
+<div align="center">
 
 <!-- Stats Overview -->
 <div style="display: flex; flex-wrap: wrap; gap: 18px; justify-content: center; margin: 20px 0;">
@@ -88,9 +88,12 @@
     <img src="https://streak-stats.demolab.com/?user=adel6-ahmed&theme=github-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&fire=20C997&sideNums=20C997&currStreakNum=20C997&font=Source%20Code%20Pro&font_size=14" alt="GitHub Streak" style="width: 100%; max-width: 800px; border-radius: 8px;">
   </div>
   <div>
-    <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg" alt="Contribution Snake" style="width: 100%; max-width: 800px;">
+    ![Contribution Snake](https://github.com/adel6-ahmed/adel6-ahmed/blob/output/github-contribution-grid-snake.svg)
   </div>
 </div>
+
+</div>
+
 ---
 
 ### 🌐 *Connect With Me*
@@ -98,9 +101,9 @@
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-20C997?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adelcv-65e7de2c63d5.herokuapp.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/mohamd-ahmed-taleb-bouhemadi-32aa8a255/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamd-ahmed-taleb-bouhemadi-32aa8a255/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)]([https://kaggle.com/yourprofile](https://www.kaggle.com/adel99))
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adel99)
 
 </div>
 
@@ -111,5 +114,5 @@
 </p>
 
 <p align="center">
-  <i>"First, solve the problem. Then, write the code." - adel ahmed</i>
+  <i>"First, solve the problem. Then, write the code." - Adel Ahmed</i>
 </p>

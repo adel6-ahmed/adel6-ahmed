@@ -11,19 +11,24 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: Platane/snk@v3
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: "adel6-ahmed"
-          outputs: "output/github-contribution-grid-snake.svg|output/github-contribution-grid-snake-dark.svg"
+          outputs: "github-contribution-grid-snake.svg|github-contribution-grid-snake-dark.svg"
           github_footer: false
 
-      - run: |
+      - name: Commit and push
+        run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/github-contribution-grid-snake*
-          git commit -m "Update contribution snake" || echo "No changes to commit"
-          git push
+          git add *.svg
+          git commit -m "Update snake graph [skip ci]" || echo "No changes"
+          git pull --rebase origin main
+          git push origin HEAD:main

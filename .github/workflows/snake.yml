@@ -1,11 +1,11 @@
 name: Generate Snake
 on:
   schedule:
-    - cron: "0 0 * * *"  # يعمل يومياً عند منتصف الليل
-  workflow_dispatch:     # يسمح بالتشغيل اليدوي
+    - cron: "0 0 * * *"  # 12:00 AM UTC يومياً
+  workflow_dispatch:
 
 permissions:
-  contents: write  # يمنح صلاحيات الكتابة
+  contents: write
 
 jobs:
   generate:
@@ -14,16 +14,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # يحصل على كل تاريخ الـ Git
+          fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: "adel6-ahmed"
-          outputs: "assets/snake.svg|assets/snake-dark.svg"  # حفظ في مجلد assets
+          outputs: "snake.svg|snake-dark.svg"
           github_footer: false
-          color.border: "rgba(0,0,0,0)"  # حدود شفافة
+          color.border: "rgba(0,0,0,0)"
 
       - name: Commit and push
         run: |
@@ -32,10 +32,10 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           # إضافة الملفات
-          git add assets/
+          git add snake*.svg
           
           # Commit التغييرات
-          git commit -m "Update snake graph [skip ci]" || echo "No changes to commit"
+          git commit -m "Auto-update snake graph [skip ci]" || echo "No changes to commit"
           
           # رفع التغييرات
           git pull --rebase origin master

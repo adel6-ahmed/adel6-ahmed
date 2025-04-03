@@ -96,17 +96,11 @@
 </div>
 
 <!-- Contribution Snake -->
-
-<!-- Contribution Snake -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/assets/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/assets/snake.svg">
-    <img alt="GitHub Contribution Snake" 
-         src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/assets/snake.svg" 
-         width="100%"
-         onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/assets/snake-dark.svg'">
-  </picture>
+  <img src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake.svg" 
+       alt="Contribution Snake"
+       width="100%"
+       onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/output/github-contribution-grid-snake-dark.svg'">
 </div>
 
 </div>

@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: master  # تحديد الفرع master صراحةً
+          ref: master  
 
       - name: Generate snake
         uses: Platane/snk@v3
@@ -31,5 +31,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add *.svg
           git commit -m "Update snake graph [skip ci]" || echo "No changes"
-          git pull --rebase origin master  # استخدام master هنا
-          git push origin HEAD:master  # استخدام master هنا
+          git pull --rebase origin master 
+          git push origin HEAD:master  

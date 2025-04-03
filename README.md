@@ -104,7 +104,7 @@
     <img alt="Contribution Snake" 
          src="https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/github-contribution-grid-snake.svg" 
          width="100%"
-         onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/github-contribution-grid-snake-dark.svg'">
+         onerror="this.onerror=null;this.src='[https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/master/github-contribution-grid-snake-dark.svg](https://raw.githubusercontent.com/adel6-ahmed/adel6-ahmed/refs/heads/master/github-contribution-grid-snake.svg%7Cgithub-contribution-grid-snake-dark.svg)'">
   </picture>
 </div>
 

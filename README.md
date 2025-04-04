@@ -1,9 +1,5 @@
 <!-- Dynamic Banner with Gradient Animation -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=4000&pause=1000&color=20C997&width=800&center=true&vCenter=true&lines=👋+Hello%2C+I'm+Mohamed+Ahmed+Taleb+Bouhemadi;💻+Full-Stack+Developer+%26+AI+Engineer;🌐+Building+Intelligent+Web+Solutions;🤖+Passionate+about+Machine+Learning+%26+Cloud" alt="Typing Banner" />
-  </a>
-</div>
+[![Typing Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=4000&pause=800&color=20C997&width=800&center=true&vCenter=true&lines=👨‍💻+Mohamed+Ahmed+Taleb+Bouhemadi;🚀+Senior+Full-Stack+Developer;🤖+AI+%26+Cloud+Specialist;🌍+Open-Source+Contributor;✨+"Turning+Ideas+into+Reality")](https://adelcv-65e7de2c63d5.herokuapp.com/)
 
 <!-- Animated Gradient Divider -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="divider" width="100%" height="8" style="margin: 24px 0;">

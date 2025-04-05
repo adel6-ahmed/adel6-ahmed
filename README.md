@@ -23,8 +23,6 @@
 
 ## 🛠️ Tech Stack
 
-## 🛠️ Technical Expertise
-
 <div align="center">
 
 ### 🌐 Frontend Development
@@ -137,7 +135,7 @@
 <img src="https://komarev.com/ghpvc/?username=adel6-ahmed&label=Profile+Views&color=20C997&style=flat" alt="Profile views">
 
 <p style="font-style: italic; color: #6e7681; margin-top: 1rem;">
-  "First, solve the problem. Then, write the code." - John Johnson
+  "First, solve the problem. Then, write the code." - Adel Ahmed
 </p>
 
 </div>

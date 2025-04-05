@@ -51,7 +51,7 @@
 | **ContactE Pro** | AI-powered contact manager with smart suggestions | Flutter, Firebase, NLP | [Code](https://github.com/adel6-ahmed/ContactE.git) • [Demo](https://example.com) |
 | **LeafGuard AI** | Plant health detection using computer vision | Python, TensorFlow, OpenCV | [Code](https://github.com/adel6-ahmed/LeafGuard.git) • [Paper](https://example.com) |
 | **Donation Hub** | Charity management platform with analytics | Flutter, Node.js, MongoDB | [Admin](https://github.com/adel6-ahmed/admin_app.git) • [User App](https://github.com/adel6-ahmed/Donate_user_app.git) |
-| **Algo Shopper** | E-commerce platform with AI recommendations | React, Python, Redis | [Code](https://github.com/adel6-ahmed/Algo_Shopper.git) • [Live](https://example.com) |
+| **Algo Shopper** | E-commerce platform with AI recommendations | JavaScript, html, css, Python, Redis,MongoDB | [Code](https://github.com/adel6-ahmed/Algo_Shopper.git) • [Live](https://example.com) |
 
 </div>
 

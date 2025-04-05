@@ -1,5 +1,5 @@
 <!-- Dynamic Banner with Gradient Animation -->
-[![Typing Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=4000&pause=800&color=20C997&width=800&center=true&vCenter=true&lines=👨‍💻+Adel+Ahmed;🚀+Mid-level +Full-Stack+Developer;🤖+AI+%26+Cloud+Specialist;🌍+Open-Source+Contributor;✨+"Turning+Ideas+into+Reality")](https://adelcv-65e7de2c63d5.herokuapp.com/)
+[![Typing Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=20C997&width=800&height=100&center=true&vCenter=true&lines=👨‍💻+Adel+Ahmed+-+Software+Engineer;🚀+Mid-level+Full-Stack+Developer;💻+Flutter+%7C+Python+%7C+Firebase;🤖+AI+%26+Cloud+Solutions+Specialist;🌱+Open-Source+Contributor+%7C+Tech+Writer;✨+"Building+Scalable+Solutions+with+Passion")](https://adelcv-65e7de2c63d5.herokuapp.com/)
 
 <!-- Animated Gradient Divider -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="divider" width="100%" height="8" style="margin: 24px 0;">

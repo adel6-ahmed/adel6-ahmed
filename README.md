@@ -1,5 +1,5 @@
 <!-- Dynamic Banner with Gradient Animation -->
-[![Typing Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=4000&pause=800&color=20C997&width=800&center=true&vCenter=true&lines=👨‍💻+Mohamed+Ahmed+Taleb+Bouhemadi;🚀+Senior+Full-Stack+Developer;🤖+AI+%26+Cloud+Specialist;🌍+Open-Source+Contributor;✨+"Turning+Ideas+into+Reality")](https://adelcv-65e7de2c63d5.herokuapp.com/)
+[![Typing Banner](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=4000&pause=800&color=20C997&width=800&center=true&vCenter=true&lines=👨‍💻+Adel+Ahmed;🚀+Senior+Full-Stack+Developer;🤖+AI+%26+Cloud+Specialist;🌍+Open-Source+Contributor;✨+"Turning+Ideas+into+Reality")](https://adelcv-65e7de2c63d5.herokuapp.com/)
 
 <!-- Animated Gradient Divider -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" alt="divider" width="100%" height="8" style="margin: 24px 0;">
@@ -93,7 +93,7 @@
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-20C997?style=for-the-badge&logo=google-chrome&logoColor=white)](https://adelcv-65e7de2c63d5.herokuapp.com/)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamd-ahmed-taleb-bouhemadi-32aa8a255/)
 [![Kaggle](https://img.shields.io/badge/📊_Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/adel99)
-[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adellhmt@gmail.com)
 
 </div>
 
@@ -103,7 +103,7 @@
 <img src="https://komarev.com/ghpvc/?username=adel6-ahmed&label=Profile+Views&color=20C997&style=flat" alt="Profile views">
 
 <p style="font-style: italic; color: #6e7681; margin-top: 1rem;">
-  "First, solve the problem. Then, write the code." - John Johnson
+  "First, solve the problem. Then, write the code." - Adel Ahmed
 </p>
 
 </div>
